@@ -11,6 +11,7 @@ Patch0:  contour-0.1.1-fix-mobility-include.patch
 
 BuildRequires: kdebase4-workspace-devel
 BuildRequires: libqt-mobility-devel
+BuildRequires: kdebase4-runtime-devel
 
 %description
 A new and innovative usage paradigm for mobile devices
