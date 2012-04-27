@@ -1,6 +1,6 @@
 Name:    contour
 Summary: A new and innovative usage paradigm for mobile devices
-Version: 0.1.1
+Version: 0.1.2
 Release: 1
 Group:   Graphical desktop/KDE
 License: LGPLv2
