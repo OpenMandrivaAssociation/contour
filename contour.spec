@@ -1,7 +1,7 @@
 Summary:	A context sensitive user interface for Plasma Active
 Name:		contour
 Version:	0.3
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		http://community.kde.org/Plasma/Active/Contour
