@@ -1,0 +1,12 @@
+diff -up contour-0.3.12.262/src/crispy/StrongLRUHashtable_test.cpp.omv~ contour-0.3.12.262/src/crispy/StrongLRUHashtable_test.cpp
+--- contour-0.3.12.262/src/crispy/StrongLRUHashtable_test.cpp.omv~	2023-09-05 17:54:42.396251299 +0200
++++ contour-0.3.12.262/src/crispy/StrongLRUHashtable_test.cpp	2023-09-05 17:54:52.773360055 +0200
+@@ -417,7 +417,7 @@ TEST_CASE("StrongLRUHashtable.peek", "")
+ 
+     for (int i = 1; i <= 4; ++i)
+     {
+-        INFO(fmt::format("i: {}", i))
++        INFO(fmt::format("i: {}", i));
+         REQUIRE(cache.peek(h(1)) == 2);
+         REQUIRE(joinHumanReadable(cache.hashes()) == sh(4, 3, 2, 1));
+     }
